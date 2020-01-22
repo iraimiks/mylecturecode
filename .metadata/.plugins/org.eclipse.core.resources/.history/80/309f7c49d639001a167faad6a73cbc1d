@@ -1,0 +1,35 @@
+
+public class Calculator {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// * / + - %
+		char operatorMath = '%';
+		double num1 = 24.5;
+		double num2 = 24.5;
+		double result;
+		if(operatorMath == '+'){
+			result = num1 + num2;
+			System.out.println(result);
+		}else if(operatorMath == '/'){
+			result = num1 / num2;
+			System.out.println(num1 / num2);
+		}else if(operatorMath == '*'){
+			result = num1 * num2;
+			System.out.println(result);
+		}else if(operatorMath == '-'){
+			result = num1 - num2;
+			System.out.println(result);
+		}else if(operatorMath == '%'){
+			result = num1 % num2;
+			System.out.println(result);
+		}else{
+			System.out.println("Wrong data");
+		}
+		
+		
+
+	}
+}
