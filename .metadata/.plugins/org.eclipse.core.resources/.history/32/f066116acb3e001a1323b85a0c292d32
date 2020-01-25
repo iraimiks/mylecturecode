@@ -1,0 +1,28 @@
+package lv.raimonds;
+
+public class LearnMethods {
+
+	
+	// void not return type
+	// public private protected
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		getMyName();
+		getMyName();
+		getMyName();
+		getMyName();
+		getMyName();
+		getMyName();
+		
+	}
+	public static void getMyName(){
+		System.out.println("My name is Raimonds");
+	}
+	public static void getMyCity(){
+		
+	}
+	public static void getIHaveCat(){
+		
+	}
+	
+}

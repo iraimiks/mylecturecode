@@ -1,0 +1,16 @@
+package lv.raimonds.learnjavaclass;
+
+public class TestJavaProgram {
+
+	public static void main(String[] args) {
+		int result;
+		
+		System.out.println(result);
+		
+		
+		Box boxObject = new Box();
+		
+		//boxObject.height;
+	}
+
+}
