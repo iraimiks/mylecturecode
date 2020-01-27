@@ -1,0 +1,5 @@
+package lv.raimonds.figure;
+
+public class Rectangle {
+
+}

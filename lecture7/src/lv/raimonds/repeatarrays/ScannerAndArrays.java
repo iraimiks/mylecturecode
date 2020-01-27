@@ -8,8 +8,14 @@ public class ScannerAndArrays {
 	 * @param args
 	 */
 	public static void main(String[] args) {
+		//User input array length;
+		//User add to element value;
+		//Array values are printed to console
+		// Create methods for printing out arrays values
+		
+		
 		Scanner sc = new Scanner(System.in);
-		int[] arr = new int[2];
+		int[] arr = new int[3];
 		System.out.println("Input first array value");
 		arr[0] = sc.nextInt();
 		System.out.println("Input second array value");

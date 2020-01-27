@@ -1,0 +1,21 @@
+package lv.raimonds;
+
+public class TestBookStore {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		char m = 'm';
+		char f = 'f';
+		char o = 'o';
+		
+		if(m == o){
+			System.out.println("Not true");	
+		}else{
+			System.out.println("True");	
+		}
+
+	}
+
+}

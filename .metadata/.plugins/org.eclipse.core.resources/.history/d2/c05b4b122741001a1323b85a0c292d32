@@ -1,0 +1,24 @@
+package lv.raimonds.repeatarrays;
+
+import java.util.Scanner;
+
+public class test {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Input number");
+		Integer num = 0;
+		while(sc.hasNextInt()){
+			int numFromInput = sc.nextInt();
+			if(){
+				
+			}
+		}
+		System.out.println("End loop");
+		
+	}
+
+}

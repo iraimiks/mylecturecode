@@ -1,0 +1,21 @@
+package lv.raimonds.figure;
+
+public class Rectangle {
+	private float length = 1.0f;
+	private float width = 1.0f;
+	
+	public Rectangle(){
+		this.length = 0;
+		this.width = 0;
+	}
+
+	public Rectangle(float length, float width) {
+		this.length = length;
+		this.width = width;
+	}
+	
+	
+	
+	
+	
+}
