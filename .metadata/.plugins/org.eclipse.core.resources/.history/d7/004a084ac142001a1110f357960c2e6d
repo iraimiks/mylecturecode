@@ -1,0 +1,5 @@
+package lv.raimonds.graph;
+
+public class Point4D {
+
+}

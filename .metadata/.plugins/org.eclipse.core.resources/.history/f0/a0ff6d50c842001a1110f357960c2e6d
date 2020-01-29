@@ -1,0 +1,14 @@
+package lv.raimonds.users;
+
+public class Student extends Person {
+	private int numCourses;
+	private String[] courses;
+	private int[] grades;
+	
+	public Student(String name, String address){
+		super(name, address);
+	}
+	public void addCourseGrade(String course, int grade){
+		
+	}
+}

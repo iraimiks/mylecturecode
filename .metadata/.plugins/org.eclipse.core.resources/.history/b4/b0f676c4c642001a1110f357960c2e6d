@@ -1,0 +1,5 @@
+package lv.raimonds.users;
+
+public class Student {
+
+}
