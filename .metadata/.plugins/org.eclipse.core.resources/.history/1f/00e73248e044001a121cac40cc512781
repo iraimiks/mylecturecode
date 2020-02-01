@@ -1,0 +1,8 @@
+package lv.raimonds.interfaces;
+
+public class Triangle implements Shape{
+	private int base;
+	private int height;
+	
+	public Trian
+}

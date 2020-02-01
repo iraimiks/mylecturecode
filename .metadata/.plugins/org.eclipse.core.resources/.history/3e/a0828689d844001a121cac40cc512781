@@ -1,0 +1,7 @@
+package lv.raimonds.polymorphism;
+
+public class Dog extends Animal{
+	public void animalSound(){
+		
+	}
+}

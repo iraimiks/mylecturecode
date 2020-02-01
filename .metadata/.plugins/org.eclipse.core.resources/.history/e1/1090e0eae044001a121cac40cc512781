@@ -1,0 +1,25 @@
+package lv.raimonds;
+
+import lv.raimonds.interfaces.Rectangle;
+import lv.raimonds.interfaces.Shape;
+
+
+public class TestInterface {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		int num1 = 20;
+		int num2 = 34;
+		
+		Rectangle rect = new Rectangle(num1, num2);
+		
+		System.out.println(rect.getLength() +" "+ rect.getWidth());
+	
+		Shape figure = new Rectangle(5,10);
+	
+		System.out.println(figure.toString());
+	}
+
+}

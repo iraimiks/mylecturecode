@@ -1,0 +1,17 @@
+package lv.raimonds;
+
+import lv.raimonds.interfaces.Rectangle;
+
+import ;
+
+public class TestInterface {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Rectangle rect = new Rectangle();
+
+	}
+
+}
