@@ -1,0 +1,31 @@
+package lv.raimonds;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class TestScannerInputArray {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		String[] strArr = new String[3];
+		Scanner sc = new Scanner(System.in);
+		
+		for(int i = 0; i < strArr.length; ++i){
+			strArr[i] = sc.nextLine();
+			
+		}
+		printArray(strArr);
+		
+	}
+	public static void printArray(String[] str){
+		
+		for(int i=0; i<str.length; i++){
+			
+			System.out.println(str[i]);
+			
+		}
+	}
+
+}

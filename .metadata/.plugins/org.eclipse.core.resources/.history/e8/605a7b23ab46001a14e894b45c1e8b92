@@ -1,0 +1,15 @@
+package lv.raimonds;
+
+public class TestString {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		String str = "    asdas   dSSD   ";
+		
+		System.out.println(str.toLowerCase());
+		System.out.println(str.trim());
+	}
+
+}
